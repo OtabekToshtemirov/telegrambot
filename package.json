@@ -1,0 +1,21 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "nodejs", "javascript", "telegraf", "telebot", "openai", "mongodb", "cron"],
+  "author": "Otabek Toshtemirov",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0",
+    "openai": "^4.24.1",
+    "telebot": "^1.4.1",
+    "telegraf": "^4.15.3"
+  }
+}
